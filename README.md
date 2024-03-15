@@ -70,4 +70,4 @@ The project follows a standard folder structure for a React application:
 
 ## Contact
 
-For any questions or inquiries, please contact Hassan Ewida at [Hassan@ewida.com](mailto:Hassan@ewida.com).
+For any questions or inquiries, please contact Hassan Ewida at [ewida6@gmail.com](mailto:ewida6@gmail.com).
