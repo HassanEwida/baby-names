@@ -30,18 +30,20 @@ To run the Baby Names App locally, follow these steps:
 ## Screenshots
 
 ### Home Page
-![Home Page Screenshot](screenshots/home.png)
 
 ![Home](https://github.com/HassanEwida/baby-names/assets/43070175/a90d1889-a464-44bf-a3d1-b2da7b80087d)
 
 ### Baby Names Page
-![Baby Names Page Screenshot](screenshots/baby-names.png)
+
+![BabyNames](https://github.com/HassanEwida/baby-names/assets/43070175/566c3d4b-85a2-44ca-8c86-d1ad75b1236a)
 
 ### About Page
-![About Page Screenshot](screenshots/about.png)
+
+![About](https://github.com/HassanEwida/baby-names/assets/43070175/68e812f5-aace-422c-b70e-27e7911af830)
 
 ### Not Found Page
-![Not Found Page Screenshot](screenshots/not-found.png)
+
+![NotFound](https://github.com/HassanEwida/baby-names/assets/43070175/cc424bf6-413c-4ab6-b463-eceb10fa2e85)
 
 ## API
 
