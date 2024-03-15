@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Baby Names App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application built with React that allows users to explore popular baby names. It provides a simple and intuitive interface to search for baby names based on gender and displays the results in a user-friendly manner.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search for baby names by gender (boy, girl, or neutral)
+- Display a list of baby names matching the search criteria
+- Navigate through different pages using a responsive navbar
+- Error handling for invalid requests and display appropriate error messages
+- Responsive design using Bootstrap for optimal viewing experience on different devices
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces
+- React Router: A library for handling navigation and routing in a React application
+- Axios: A promise-based HTTP client for making API requests
+- Bootstrap: A popular CSS framework for creating responsive and stylish web pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run the Baby Names App locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/HassanEwida/baby-names-app.git`
+2. Navigate to the project directory: `cd baby-names-app`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit: `http://localhost:3000`
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home Page
+![Home Page Screenshot](screenshots/home.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Home](https://github.com/HassanEwida/baby-names/assets/43070175/a90d1889-a464-44bf-a3d1-b2da7b80087d)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Baby Names Page
+![Baby Names Page Screenshot](screenshots/baby-names.png)
 
-### `npm run eject`
+### About Page
+![About Page Screenshot](screenshots/about.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Not Found Page
+![Not Found Page Screenshot](screenshots/not-found.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Baby Names App uses the [API Ninjas](https://api-ninjas.com/) service to fetch baby names data. It requires an API key to make requests to the API. Make sure to obtain an API key from API Ninjas and replace the `API_KEY` variable in the `src/services/api.js` file with your own key.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Folder Structure
 
-## Learn More
+The project follows a standard folder structure for a React application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `src/`: Contains the source code files
+  - `components/`: Reusable components used throughout the application
+  - `pages/`: Components representing different pages or views
+  - `services/`: Services for making API requests
+  - `App.js`: The main component that sets up the routing and renders other components
+  - `index.js`: The entry point of the application
+- `public/`: Contains the public assets and the HTML template
+- `package.json`: Defines the project dependencies and scripts
+- `README.md`: Provides information and instructions about the project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgements
 
-### Code Splitting
+- The project was developed as part of the React course by Shulamit Tla'or.
+- Baby names data is provided by the [API Ninjas](https://api-ninjas.com/) service.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions or inquiries, please contact Hassan Ewida at [Hassan@ewida.com](mailto:Hassan@ewida.com).
